@@ -1,0 +1,207 @@
+
+/* Poster */
+.poster1 {
+    width: 1180px;
+    height: 500px;
+    background-color: #EEE4DB;
+}
+
+.poster1-logo {
+}
+
+.poster1-number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+
+    color: rgba(30, 6, 6, 0.05);
+}
+
+.poster1-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+
+    color: #1E0606;
+}
+
+.category-nav-list {
+    list-style-type: none;
+}
+
+.poster1-designed {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #1E0606;
+}
+
+.poster1-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.poster1-shipping {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+/* Category */
+.category-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.category-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.category-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.category-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+/* Delivery */
+
+.delivery-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.delivery-title-list {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #1E0606;
+}
+
+.unique-delivery {
+
+}
+
+.delivery-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+/* Partners */
+
+.partners-list {
+    list-style-type: none;
+}
+
+/* About us */
+
+.about-us-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.about-us-about {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #1E0606;
+}
+
+.about-us-description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+.about-us-btn {
+
+}
+
+/* Map */
+
+.map {
+
+}
+
+.map-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.map-description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
