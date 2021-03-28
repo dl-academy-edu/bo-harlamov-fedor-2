@@ -1,0 +1,138 @@
+body { 
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0; 
+}
+a { 
+    text-decoration: none;
+}
+html {
+    box-sizing: border-box; 
+}
+*, 
+*::before, 
+*::after { 
+    box-sizing: inherit; 
+}
+img { 
+    max-width: 100%; 
+}   
+
+.btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background-color: #000000;;
+}
+
+.container {
+    max-width: 1177px;
+    padding: 50 110 0 113px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #1E0606;
+
+    margin-right: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.header-nav-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-left: 60px;
+}
+
+.header-logo {
+    padding: 50px;
+}
+
+/* Footer */
+
+.footer-nav-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #AAAAAA;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-choice {
+
+}
+
+.footer-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.footer-search-btn {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.copyright-notice {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.developer {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    
+    display: flex;
+    align-items: center;
+
+    color: #A2A2A2;
+}

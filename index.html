@@ -5,29 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="header">
-        <img src="/images/main-logo.png" alt="logo" class="header-logo">
-        <nav class="header">
-            <ul>
-                <li><a href="#" class="link">Blog</a></li>
-                <li><a href="#" class="link">Catalog</a></li>
-                <li><a href="#" class="link">About Us</a></li>
-            </ul>
-        </nav>
-        <form class="header-search">
-            <input type="text" placeholder="">
-            <button type="submit"></button>
-        </form>
-        <a class="header-btn btn" href="/pages/contact-us">Contact  Us</a>
+        <div class="container">
+            <div class="header-content">
+                <img src="/images/main-logo.png" alt="logo" class="header-logo">
+                <nav class="header">
+                    <ul class="header-nav-list">
+                        <li><a href="#" class="header-link">Blog</a></li>
+                        <li><a href="#" class="header-link">Catalog</a></li>
+                        <li><a href="#" class="header-link">About Us</a></li>
+                    </ul>
+                </nav>
+                <form class="header-search">
+                    <input type="text" placeholder="">
+                    <button type="submit"></button>
+                </form>
+                <a class="header-btn" href="/pages/contact-us">Contact  Us</a>
+            </div>            
+        </div>       
     </header>
     <main>
         <h1 class="unvisible"></h1>
         <section class="poster1">
             <img src="/images/poster1.jpg" alt="logo" class="poster1-logo">
             <p class="poster1-number">01</p>
-            <ul>
+            <ul class="category-nav-list">
                 <li><button class="category-btn1 active btn"></button></li>
                 <li><button class="category-btn1 btn"></button></li>
                 <li><button class="category-btn1 btn"></button></li>
@@ -35,7 +44,7 @@
             </ul>
             <h2 class="poster1-title">THE OOH NOO COLLECTION</h2>
             <p class="poster1-designed">Designed in Slovenia</p>
-            <a class="poster1-btn" href="#">EXPLORE NOW</a>
+            <a class="poster1-btn btn" href="#">EXPLORE NOW</a>
             <p><span class="poster1-shipping">Free (continental) USA shipping on all orders of $100 USD or more!</span></p>
         </section>
         <section class="category">
@@ -67,15 +76,15 @@
         <section class="delivery">
             <h2 class="delivery-title">Delivery</h2>
             <img class="delivery-logo" src="/images/delivery-logo.jpg" alt="delivery-img">
-            <button class="delivery-btn btn">Delivery</button>
-            <button class="delivery-btn btn">Guarantee</button>
-            <button class="delivery-btn btn">Credit</button>
-            <h3 class="delivery-title">Delivery</h3>
-            <h3 class="delivery-title">Guarantee</h3>
-            <h3 class="delivery-title">Credit</h3>
+            <button class="delivery-btn">Delivery</button>
+            <button class="delivery-btn">Guarantee</button>
+            <button class="delivery-btn">Credit</button>
+            <h3 class="delivery-title-list unique-delivery">Delivery</h3>
+            <h3 class="delivery-title-list">Guarantee</h3>
+            <h3 class="delivery-title-list">Credit</h3>
             <p class="delivery-description">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <p class="delivery-description">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
-            <a class="delivery-btn" href="#">LEARN MORE</a>
+            <a class="delivery-btn btn" href="#">LEARN MORE</a>
         </section>
         <section class="partners">
             <ul class="partners-list">
@@ -89,7 +98,7 @@
     <section class="about-us">
         <div class="about-us">
             <h2 class="about-us-title">Design Life Kids</h2>
-            <p class="about-us-title">About Us</p>
+            <p class="about-us-about">About Us</p>
             <p class="about-us-description">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <a class="about-us-btn btn" href="#">BUY NOW</a>
         </div>
@@ -101,36 +110,36 @@
     </section>
     <footer class="footer">
         <section class="footer-nav">
-            <h3 class="footer-nav-title">Navigation</h3>
+            <h3 class="footer-title">Navigation</h3>
             <nav class="footer-nav">
-                <ul class="footer-nav-list">
-                    <li class="footer-nav-choice"><a href="#" class="footer-nav-link">About Us</a></li>
-                    <li class="footer-nav-choice"><a href="#" class="footer-nav-link">Blog</a></li>
-                    <li class="footer-nav-choice"><a href="#" class="footer-nav-link">Design Services</a></li>
-                    <li class="footer-nav-choice"><a href="#" class="footer-nav-link">Featured On</a></li>
-                    <li class="footer-nav-choice"><a href="#" class="footer-nav-link">2018 Holiday Catalog</a></li>
-                    <li class="footer-nav-choice"><a href="#" class="footer-nav-link">Shop By Designer</a></li>
+                <ul class="footer-list">
+                    <li class="footer-choice"><a href="#" class="footer-link">About Us</a></li>
+                    <li class="footer-choice"><a href="#" class="footer-link">Blog</a></li>
+                    <li class="footer-choice"><a href="#" class="footer-link">Design Services</a></li>
+                    <li class="footer-choice"><a href="#" class="footer-link">Featured On</a></li>
+                    <li class="footer-choice"><a href="#" class="footer-link">2018 Holiday Catalog</a></li>
+                    <li class="footer-choice"><a href="#" class="footer-link">Shop By Designer</a></li>
                 </ul>
             </nav>
         </section>
         <section class="footer-customer">
-            <h3 class="footer-customer-title">Customer Information</h3>
-                <ul class="footer-customer-list">
-                    <li class="footer-customer-choice"><a href="#" class="footer-customer-link">Contact Us</a></li>
-                    <li class="footer-customer-choice"><a href="#" class="footer-customer-link">Sale Exclusions</a></li>
-                    <li class="footer-customer-choice"><a href="#" class="footer-customer-link">Shipping & Returns</a></li>
-                    <li class="footer-customer-choice"><a href="#" class="footer-customer-link">Terms & Conditions</a></li>
-                    <li class="footer-customer-choice"><a href="#" class="footer-customer-link">Privacy Policy</a></li>
-                    <li class="footer-customer-choice"><a href="#" class="footer-customer-link">Search</a></li>
+            <h3 class="footer-title">Customer Information</h3>
+                <ul class="footer-list">
+                    <li class="footer-customer-choice"><a href="#" class="footer-link">Contact Us</a></li>
+                    <li class="footer-customer-choice"><a href="#" class="footer-link">Sale Exclusions</a></li>
+                    <li class="footer-customer-choice"><a href="#" class="footer-link">Shipping & Returns</a></li>
+                    <li class="footer-customer-choice"><a href="#" class="footer-link">Terms & Conditions</a></li>
+                    <li class="footer-customer-choice"><a href="#" class="footer-link">Privacy Policy</a></li>
+                    <li class="footer-customer-choice"><a href="#" class="footer-link">Search</a></li>
                 </ul>
         </section>
         <section class="footer-connect">
-            <h3 class="footer-connect-title">Connect</h3>
+            <h3 class="footer-title">Connect</h3>
             <form class="footer-connect-search">
                 <input class="footer-input" type="text" placeholder="Email">
-                <button class="footer-search-btn" type="submit">JOIN</button>
+                <button class="footer-search-btn btn" type="submit">JOIN</button>
             </form>
-            <ul class="footer-connect-list">
+            <ul class="footer-list">
                 <li class="footer-link-logo">
                     <a href="#">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
